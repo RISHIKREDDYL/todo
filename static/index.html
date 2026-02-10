@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/static/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="app-container">
         <header class="header">
@@ -18,14 +20,8 @@
         <main class="main-content">
             <form id="todo-form" class="todo-form">
                 <div class="input-group">
-                    <input 
-                        type="text" 
-                        id="todo-input" 
-                        class="todo-input" 
-                        placeholder="What needs to be done?" 
-                        autocomplete="off"
-                        required
-                    >
+                    <input type="text" id="todo-input" class="todo-input" placeholder="What needs to be done?"
+                        autocomplete="off" required>
                     <button type="submit" class="add-btn">
                         <span class="btn-text">Add</span>
                         <span class="btn-icon">+</span>
@@ -47,8 +43,16 @@
                 <p>No tasks yet. Add one above!</p>
             </div>
         </main>
+
+        <footer class="footer">
+            <p>Created by <a href="https://rishikreddy.com" target="_blank">Rishik Reddy</a></p>
+            <a href="https://github.com/RISHIKREDDYL/todo" target="_blank" class="github-link">
+                ⭐ GitHub
+            </a>
+        </footer>
     </div>
 
     <script src="/static/app.js"></script>
 </body>
+
 </html>
